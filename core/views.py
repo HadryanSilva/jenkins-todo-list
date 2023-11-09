@@ -6,7 +6,7 @@ from .forms import TodoForm
 from django.urls import reverse_lazy
 from datetime import datetime
 
-
+#Criação de um novo TO DO
 class TodoCreate(CreateView):
     model = Todo
     template_name = "core/new.html"
